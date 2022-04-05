@@ -9,7 +9,7 @@ diskname=${diskname}
 echo "------------ OVERWRITE ALGORITHM ------------";
 diskutil secureerase --help
 echo "Input -> 0, 1, 2, 3 or 4 - any other input will skip this step."
-echo "This is discouraged for SSDs, since it shortens their lifetime."
+echo "This is discouraged for SSDs, since every write shortens its lifetime."
 read -p "Do you want to use an overwrite algorithm?" algorithm
 diskname=${diskname:-no}
 

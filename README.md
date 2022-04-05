@@ -3,7 +3,7 @@
 ONLY FOR MAC OSX!
 
 Use with caution, as it wipes your disk entirely. :)    
-You cannot hold me responsible for any data loss or damage that might occur. 
+I cannot be held responsible for any data loss or damage that might occur. 
 
 
 ## Requirements
@@ -33,6 +33,6 @@ This takes a long time, so make sure you take this into account!
 |4|US DoE algorithm 3-pass secure erase.|
 
 This should only be used for HDDs, not SSD.    
-You can read more on why here
+You can read more [on why here](https://apple.stackexchange.com/a/258171).
 
-https://apple.stackexchange.com/a/258171
+If you want some in-depth-details about different wiping algorithms you can check out [this paper by Michael Wei](https://www.usenix.org/legacy/events/fast11/tech/full_papers/Wei.pdf). 
